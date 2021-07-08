@@ -1,0 +1,1 @@
+# lin-rose-static
