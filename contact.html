@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Shadows+Into+Light&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Lin & Rose</title>
+  </head>
+  <body>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="./index.html" class="nav-burg">Home</a>
+        <a href="./contact.html"class="nav-burg">Contact</a>
+        <a href="./about.html"class="nav-burg">About</a>
+        <a href="./portfolio.html"class="nav-burg">Portfolio</a>
+      </div>
+      <div id="main">
+        <span class="burger" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+        <div class="container">
+      <div class="row-nav-cust">
+        <div class="col-lg-12">
+          <div class="nav-box">
+            <div class="nav-items">
+              <a href="index.html"><li class="nav-item">Home</li></a>
+              <a href="contact.html"><li class="nav-item">Contact</li></a>
+              <a href="about.html"><li class="nav-item-right">About</li></a>
+              <a href="portfolio.html"
+                ><li class="nav-item-right">Portfolio</li></a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="img-container">
+        <!-- Block parent element -->
+        <img src="logo-lr.png" class="l-r-logo-img" alt="logo" height="100px" width="150px" />
+      </div>
+    </div>
+    <br>
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="index-jumbo-txt">Contact</h1>   
+        </div>
+      </div>
+    <br />
+    <br />
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="contact-h1">Talk To Us !</h1>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <form class="form-bs-contact">
+                    <div class="form-group ">
+                      <label for="exampleFormControlInput1">Your Email</label>
+                      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1">Your Name</label>
+                        <input type="name" class="form-control" id="exampleFormControlInput2" placeholder=" ex: John Smith">
+                      </div>
+                  
+                    <div class="form-group">
+                      <label for="exampleFormControlTextarea1">Your Message</label>
+                      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <button type="button" class="btn btn-dark">Submit</button>
+                  </form>
+            </div>
+            
+           
+        </div>
+    </div>
+      </div>
+      <script>
+        function openNav() {
+          document.getElementById("mySidenav").style.width = "250px";
+          document.getElementById("main").style.marginLeft = "250px";
+          document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+        }
+        
+        function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+          document.getElementById("main").style.marginLeft= "0";
+          document.body.style.backgroundColor = "#e7e7e7";
+        }
+        </script>
+    
+
+    <!-- Bootstrap CDN Framework -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

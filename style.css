@@ -1,0 +1,164 @@
+
+body{
+    background-color:#e7e7e7;
+}
+.row-nav-cust{
+    margin: 30px;
+    background-color: #e7e7e7;
+}
+.nav-box{
+    /* background-color:grey; */
+    width:100%;
+}
+.l-r-logo-img{
+    border-radius: 5px;
+    border: 2px #caa6a8 solid;
+}
+.img-norm{
+    border-radius: 5px;
+    border: 1px #000 solid;
+}
+.nav-item:hover{
+    color:#caa6a8
+}
+.nav-item-right:hover{
+    color:#caa6a8
+}
+.nav-burg{
+    font-size:25px;
+    font-family: 'Cormorant Garamond', serif; 
+}
+.nav-item{
+    display: inline;
+    float: left;
+    margin:20px;
+    font-size:25px;
+    font-family: 'Cormorant Garamond', serif;
+    color:#0b0b0b;
+}
+.nav-item-right{
+    display: inline;
+    float: right;
+    margin:20px;
+    font-size:25px;
+    font-family: 'Cormorant Garamond', serif;
+    color:#0b0b0b;
+}
+.img-container{
+    text-align: center;
+        display: block;
+}
+.jumb-index{
+    background-image: url('./201826795_1025110881566766_5109156808652362213_n.jpg');
+    opacity: .5;
+}
+.display-4{
+    color:white;
+}
+.demo-wrap {
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .demo-bg {
+    opacity: 0.6;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+  }
+ 
+  
+  .demo-content {
+    position: relative;
+    height:300px;
+  }
+  .index-jumbo-txt{
+      color:#000;
+      /* padding:100px; */
+      font-size: 65px;
+      font-family: 'Cormorant Garamond', serif;
+  }
+  .form-bs-contact{
+    font-family: 'Cormorant Garamond', serif;
+  }
+  .contact-h1{
+    font-family: 'Cormorant Garamond', serif;
+    color:#000;
+    text-align: center;
+  }
+  .info-founder{
+      float:right;
+  }
+  .jumbotron-fluid{
+      background-color: #caa6a8;
+  }
+
+
+  /* Side nav */
+
+  .burger{
+      display: none;
+  }
+
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  #main {
+    transition: margin-left .5s;
+    padding: 16px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+  /* On screens that are 600px wide or less, the background color is olive */
+@media screen and (max-width: 600px) {
+    .row-nav-cust{
+        display: none;
+    }
+    .burger{
+        display: block;
+    }
+    .img-norm{
+        width:300px;
+        height: 300px;
+    }
+    .head-shot{
+        width:230px;
+    }
+  }
